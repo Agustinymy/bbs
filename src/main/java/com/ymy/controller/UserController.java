@@ -25,6 +25,7 @@ public class UserController {
     @ResponseBody
     public User findUser(){
         User user = userMapper.selectById(1);
+
      /*   List<User> user = userMapper.findUser();
         System.out.println(user);*/
 
